@@ -4,6 +4,9 @@
 #define MODMUL(A, B, MOD) (((A % MOD) * (B % MOD)) % MOD)
 #define MODADD(A, B, MOD) ((A + B) % MOD)
 #define MODSUB(A, B, MOD) ((A % MOD - B % MOD + MOD) % MOD)
+#define all(x) x.begin(), x.end()
+#define nmax 100005
+#define mmax 100005
 using namespace std;
 int main(){FASTER;
     USEFILE("INPUT", "OUTPUT");
